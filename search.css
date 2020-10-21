@@ -1,0 +1,85 @@
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  header {
+    top:-10px;
+    left: -0.01px;
+    height: 100px;
+    background: #262626;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+  }
+  .logo {
+    width: 30%;
+    float: left;
+    line-height: 100px;
+  }
+  .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    color: #fff;
+    letter-spacing: 3px;
+  }
+  nav {
+    float: right;
+    line-height: 100px;
+  }
+  nav a {
+    text-decoration: none;
+    font-family: bignoodleltitling;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 18px;
+    color: #fff;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1{
+      font-size: 30px;
+  }
+  #findata {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #findata td, #findata th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #findata tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #findata tr:hover {background-color: #ddd;}
+  
+  #findata th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  #backbutton{
+    position: absolute;
+    left: 40%;
+    top:500px;
+    text-align:center;
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#fin{
+    margin-top: 150px;
+}
